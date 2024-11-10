@@ -1,6 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: "Mulish", sans-serif;
+  background-color: var(--bg-black);
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
 /* START OF FOOTER */
 footer {
-  min-height: 120vh;
+  height: 120vh;
   width: 100vw;
   z-index: 200;
   position: absolute;
@@ -13,6 +36,7 @@ footer {
   text-align: center;
   gap: 20px;
   padding: 20px;
+  overflow: hidden;
 }
 
 footer > img {
