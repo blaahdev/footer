@@ -5,22 +5,12 @@
 }
 
 :root {
-  --bg-theme1: #2b5b5f;
-  --bg-theme2: #eaae36;
-  --bg-theme3: #ff6546;
-  --bg-theme4: #1d3155;
-  --bg-black: #0a2223;
-  --bg-white: #ffffff;
-  --bg-accent: #e9b546;
-  --bg-random1: #ff6546;
-  --bg-random2: #f3a8c2;
-  --bg-random3: #f68c87;
   font-size: 16px;
 }
 
 body {
   font-size: 2rem;
-  line-height: 1.5; /* Improve readability */
+  line-height: 1.5;
   font-family: "Mulish", sans-serif;
   background-color: var(--bg-black);
 }

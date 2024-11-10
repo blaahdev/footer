@@ -4,8 +4,9 @@ footer {
   width: 100vw;
   z-index: 200;
   position: absolute;
-  background-color: var(--bg-black);
-  color: var(--bg-white);
+  color: var(--bg-white, #ffffff);
+  background-color: var(--bg-black, #0a2223);
+  font-family: var(--font-family, "Mulish", sans-serif);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -20,7 +21,7 @@ footer > img {
 
 footer > span {
   opacity: 0.4;
-  font-family: "Mulish", sans-serif;
+  font-family: inherit;
   font-size: 50%;
   letter-spacing: 1px;
   text-transform: lowercase;
